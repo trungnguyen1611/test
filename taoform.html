@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>TaoForm</title>
 </head>
 <body>
-$END$
+<font face="Lucida Grande,Lucida Sans Unicode,Tahoma"></font>
+<form><h1>ORDER FORM</h1>
+<h3>What would you like to buy?</h3>
+    <select>
+        <option>A</option>
+        <option>B</option>
+        <option>C</option>
+        <option>D</option>
+        <option>E</option>
+    </select>
+    <h3>How many would you like to order?</h3>
+    <input type="radio" id="SL1" value="1" name="sl">
+        <label for="SL1">1-$10</label><br>
+    <input type="radio" id="SL2" value="2" name="sl">
+        <label for="SL2">2-$20</label><br>
+    <input type="radio" id="SL3" value="3" name="sl">
+        <label for="SL3">3-$30</label><br>
+    <h3>Name</h3>
+    <input type="text" placeholder="FirtName" required>
+    <input type="text" placeholder="LastName" required>
+    <h3>Email</h3>
+    <input type="text" placeholder="Email">
+    <h3>Phone Number</h3>
+    <input type="text" size="4 "> - <input type="text" size="4"> - <input type="text" size="4">
+    <br><input type="submit">
+</form>
 </body>
 </html>

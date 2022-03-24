@@ -2,31 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test 1</title>
+    <title>Tạo Form</title>
+    <link rel="stylesheet" href="test1.css">
 </head>
 <body>
-<table border="1">
-    <tr>
-        <th>Thang</th>
-        <th>Doanh thu</th>
-    </tr>
-    <tr>
-        <td>Mot</td>
-        <td>Hai</td>
-    </tr>
-    <tr>
-        <td colspan="2">Tong : 180$</td>
-    </tr>
-    <input type="checkbox">
-    <input type="number">
-    <input type="search"">
-    <input type="password">
-    <input type="week">
-    <input type="date">
-    <input type="file">
-    <input type="range">
-    <input type="submit">
-    <input type="datetime-local">
-</table>
+    <h2>SỞ THÍCH CỦA BẠN</h2>
+<form>
+    <table border="1px" cellspacing="1px" cellpadding=" 1px">
+        <tr>
+            <th>
+                <label for="name">Họ và tên</label>
+            </th>
+            <td>
+                <input type="text" id="name" name="yourname">
+            </td>
+        </tr>
+        <tr>
+            <th><label for="email">Email</label></th>
+            <td><input type="text" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <th>
+                <label>Sở thích</label>
+            </th>
+            <td>
+
+            </td>
+            <td>
+                <label for="thethao">
+                    <input type="checkbox" id="thethao" name="hobby">Thể thao
+                </label>
+            </td>
+            <label for="amnhac">Âm nhạc
+                <input type="checkbox" id="amnhac" name="hobby">
+            </label>
+
+        </tr>
+
+            <input type="checkbox" id="docsach" name="hobby">
+            <label for="docsach">Đọc sách</label>
+        </td>
+        </tr>
+        <tr>
+        <td>
+            <input type="checkbox" id="Luotweb" name="hobby">
+            <label for="luotweb">Lướt web</label>
+            <input type="checkbox" id="dienanh" name="hobby">
+            <label for="dienanh">Điện ảnh</label>
+            <input type="checkbox" id="dulich" name="hobby">
+            <label for="dulich">Du lịch</label>
+        </td>
+        </tr>
+        <td>
+            <input type="checkbox" id="choigame" name="hobby">
+            <label for="choigame">Chơi game</label>
+        </td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>
