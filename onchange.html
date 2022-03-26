@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onchange</title>
+</head>
+<body>
+<p>lua chon luyen tap script</p>
+<select id="id">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+</select>
+<script>
+    let bien1 = document.getElementById("id");
+    bien1.addEventListener("change",ham1);
+
+    function ham1() {
+        let bien2 = document.getElementById("id").value;
+        alert(bien2);
+    }
+</script>
+</body>
+</html>
